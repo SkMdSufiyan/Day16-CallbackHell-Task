@@ -1,0 +1,38 @@
+onloadstart:(
+setTimeout(()=>{
+    document.getElementById('countDown').innerText="Countdown Begins!";
+    setTimeout(()=>{
+        document.getElementById('countDown').innerText=10;
+        setTimeout(()=>{
+            document.getElementById('countDown').innerText=9;
+            setTimeout(()=>{
+                document.getElementById('countDown').innerText=8;
+                setTimeout(()=>{
+                    document.getElementById('countDown').innerText=7;
+                    setTimeout(()=>{
+                        document.getElementById('countDown').innerText=6;
+                        setTimeout(()=>{
+                            document.getElementById('countDown').innerText=5;
+                            setTimeout(()=>{
+                                document.getElementById('countDown').innerText=4;
+                                setTimeout(()=>{
+                                    document.getElementById('countDown').innerText=3;
+                                    setTimeout(()=>{
+                                        document.getElementById('countDown').innerText=2;
+                                        setTimeout(()=>{
+                                            document.getElementById('countDown').innerText=1;
+                                            setTimeout(()=>{
+                                                document.getElementById('countDown').innerText="Happy Independence Day!"; 
+                                            },1000)
+                                        },1000)
+                                    },1000)
+                                },1000)
+                            },1000)
+                        },1000)
+                    },1000)
+                },1000)
+            },1000)
+        },1000)
+    },1000)
+},1000)
+)
